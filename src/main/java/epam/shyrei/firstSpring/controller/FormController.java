@@ -1,13 +1,15 @@
 package epam.shyrei.firstSpring.controller;
 
-import epam.shyrei.firstSpring.model.User;
+import epam.shyrei.firstSpring.model.Bike;
+import epam.shyrei.firstSpring.service.BikeService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.MessageSource;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
+
+import java.util.List;
 
 /**
  * Project FirstSpring
@@ -18,21 +20,39 @@ import org.springframework.web.servlet.ModelAndView;
 public class FormController {
 
     @Autowired
-    private MessageSource messageSource;
+    private BikeService userService;
 
-    @RequestMapping (value = "/", method = RequestMethod.GET)
-    public ModelAndView main(){
+    @RequestMapping(value = "/", method = RequestMethod.GET)
+    public ModelAndView main() {
         ModelAndView modelAndView = new ModelAndView();
-        modelAndView.addObject("userJSP", new User());
+        modelAndView.addObject("userJSP", new Bike());
         modelAndView.setViewName("index");
         return modelAndView;
+
     }
 
-    @RequestMapping (value = "/check-user")
-    public ModelAndView checkUser(@ModelAttribute("userJSP") User user){
+    @RequestMapping(value = "/save-bike")
+    public ModelAndView checkUser(@ModelAttribute("userJSP") Bike bike) {
         ModelAndView modelAndView = new ModelAndView();
         modelAndView.setViewName("second");
-        modelAndView.addObject("userJSP", user);
+        userService.save(bike);
+        modelAndView.addObject("userJSP", bike);
         return modelAndView;
+
     }
+
+    @RequestMapping(value = "/view-bikes", method = RequestMethod.GET)
+    public ModelAndView findAllBikes() {
+        ModelAndView modelAndView = new ModelAndView();
+        modelAndView.setViewName("bikes");
+        List<Bike> bikesList = userService.findAll();
+        modelAndView.addObject("bikesList", bikesList);
+        System.out.println(bikesList);
+        return modelAndView;
+
+    }
+
+
+
 }
+

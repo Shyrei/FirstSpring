@@ -11,5 +11,14 @@
       <user-name>root</user-name>
       <introspection-schemas>*:users</introspection-schemas>
     </data-source>
+    <data-source name="Heroku" uuid="4045f91d-1eb1-467b-928f-eb5dc44b8037">
+      <database-info product="PostgreSQL" version="9.6.1" jdbc-version="4.0" driver-name="PostgreSQL Native Driver" driver-version="PostgreSQL 9.4 JDBC4 (build 1201)">
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>wkrdiiuijqitst</user-name>
+      <introspection-schemas>d1k1mbu9eqne8g:public</introspection-schemas>
+    </data-source>
   </component>
 </project>

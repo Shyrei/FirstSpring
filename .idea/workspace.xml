@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc718fad-6493-45d2-9064-29085e6b1c19" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Procfile" afterPath="$PROJECT_DIR$/Procfile" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -52,11 +53,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="469">
-              <caret line="119" column="43" lean-forward="true" selection-start-line="119" selection-start-column="43" selection-end-line="119" selection-end-column="43" />
+            <state relative-caret-position="316">
+              <caret line="110" column="0" lean-forward="true" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -92,11 +93,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Procfile" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Procfile" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Procfile">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="87" lean-forward="true" selection-start-line="0" selection-start-column="87" selection-end-line="0" selection-end-column="87" />
+              <caret line="0" column="66" lean-forward="true" selection-start-line="0" selection-start-column="66" selection-end-line="0" selection-end-column="66" />
               <folding />
             </state>
           </provider>
@@ -152,8 +153,8 @@
         <option value="$PROJECT_DIR$/src/main/resources/users.sql" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/heroku.properties" />
-        <option value="$PROJECT_DIR$/Procfile" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/Procfile" />
       </list>
     </option>
   </component>
@@ -997,7 +998,7 @@
       <workItem from="1509376219298" duration="8962000" />
       <workItem from="1509385530878" duration="1726000" />
       <workItem from="1509387301976" duration="13882000" />
-      <workItem from="1509469406412" duration="3910000" />
+      <workItem from="1509469406412" duration="4212000" />
     </task>
     <task id="LOCAL-00001" summary="Add i18n">
       <created>1509377750054</created>
@@ -1017,7 +1018,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28480000" />
+    <option name="totallyTimeSpent" value="28782000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1413,18 +1414,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Procfile">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="87" lean-forward="true" selection-start-line="0" selection-start-column="87" selection-end-line="0" selection-end-column="87" />
+        <state relative-caret-position="316">
+          <caret line="110" column="0" lean-forward="true" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/Procfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="469">
-          <caret line="119" column="43" lean-forward="true" selection-start-line="119" selection-start-column="43" selection-end-line="119" selection-end-column="43" />
+        <state relative-caret-position="0">
+          <caret line="0" column="66" lean-forward="true" selection-start-line="0" selection-start-column="66" selection-end-line="0" selection-end-column="66" />
           <folding />
         </state>
       </provider>

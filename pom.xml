@@ -120,9 +120,9 @@
                             <artifactItems>
                                 <artifactItem>
                                     <groupId>com.github.jsimone</groupId>
-                                    <artifactId>web-runner</artifactId>
+                                    <artifactId>webapp-runner</artifactId>
                                     <version>8.5.23.0</version>
-                                    <destFileName>web-runner.jar</destFileName>
+                                    <destFileName>webapp-runner.jar</destFileName>
                                 </artifactItem>
                             </artifactItems>
                         </configuration>
